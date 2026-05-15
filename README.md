@@ -39,3 +39,27 @@ moment — especially when you're under pressure and tempted to just try somethi
 - `test-academic.md`, `test-pressure-1/2/3.md` — scenarios used to validate the skill
 
 See [`systematic-debugging/SKILL.md`](systematic-debugging/SKILL.md) for the full skill.
+
+## manager-briefing
+
+**What it is:** A reporting style that turns Claude's verbose engineering work-logs
+into a short status update a busy manager can act on.
+
+**The one rule:** The brief comes first and stays under 150 words — situation, status,
+decision. Detail is offered as a topic menu, not dumped.
+
+**How it works:**
+
+- **The four questions** — every brief answers Status, What changed, Risk, and Decision
+  needed. Sections with no real content are dropped, not filled with filler.
+- **Topic menu** — 2–4 labels of things the manager *could* drill into. Details appear
+  only when asked.
+- **One question rule** — never a multi-option technical fork; ask one plain question
+  with a recommendation.
+- **Jargon & tone** — technical names translated to plain meaning, facts kept separate
+  from recommendations, no narration spam.
+
+**When to use it:** On-demand — say "explain in simpler terms", "give me a manager
+summary", "recap", or "is this done?"
+
+See [`manager-briefing/SKILL.md`](manager-briefing/SKILL.md) for the full skill.
