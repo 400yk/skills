@@ -41,7 +41,7 @@ Always answer these four internally. Render a section **only when it has real co
 
 After the brief, add one line listing 2–4 topic **labels** the manager could drill into — names of things to explore, not the details themselves:
 
-> Ask me about: the two transcription paths · the test-rewrite cost
+> Ask me about: the two transcription engines · the test cost
 
 Omit the line entirely if there is nothing deeper worth offering.
 
