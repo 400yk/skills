@@ -32,7 +32,7 @@ The brief stays **under 150 words**. Hard ceiling. The topic menu and any later 
 
 Always answer these four internally. Render a section **only when it has real content** — no filler, no empty headers.
 
-1. **Status** — Done / Partially done / Blocked / In progress. Always shown. One word plus one short clause.
+1. **Status** — Done / Partially done / Blocked / In progress. Always shown. One word plus one short clause. When partially done, include a rough percent complete (e.g. "Partially done (~60%)") — estimate from work shipped vs. work remaining, and round to the nearest 10%. Better to commit to a number than hide behind "partially".
 2. **What changed** — what is actually different now, in plain terms. Shown when work was done.
 3. **Risk** — what could bite us, or what is uncertain. Shown only if real. Never write "Risk: none".
 4. **Decision needed** — the one question for the manager, with your recommendation. Shown only when genuinely blocked on their answer.
@@ -88,7 +88,7 @@ If you catch yourself thinking:
 
 **After** — manager brief:
 
-> **Status:** Partially done. Settings storage is moved and tested; one old path still lags.
+> **Status:** Partially done (~70%). Settings storage is moved and tested; one old path still lags.
 >
 > **What changed:** User settings (transcription service, language, audio length) now save to the new config file. Tests pass.
 >
